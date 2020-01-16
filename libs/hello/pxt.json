@@ -1,0 +1,12 @@
+{
+    "name": "hello",
+    "description": "Hello world",
+    "files": [
+        "hello.ts"
+    ],
+    "public": true,
+    "dependencies": {
+        "core": "file:../core",
+        "radio": "file:../radio"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "pxt-nezha",
+    "version": "0.0.0",
+    "description": "",
+    "dependencies": {
+        "core": "file:../core",
+        "radio": "file:../radio"
+    },
+    "files": [
+        "README.md",
+        "ds18b20.cpp",
+		"_locales/zh/pxt-nezha-strings.json",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": false,
+    "preferredEditor": "tsprj",
+    "installedVersion": "workspace:bb9164b2-7990-4783-c266-b1f5c376a53e"
+}

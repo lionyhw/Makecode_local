@@ -1,0 +1,17 @@
+{
+  "neZha": "Functions to NeZha multifunctional expansion board by ELECFREAKS Co.,Ltd.",
+  "neZha.Crash": "Input sensor*******************星宿传感器************************************* \ncheck crash",
+  "neZha.Dust": "get dust value (μg/m³)",
+  "neZha.LED": "Output sensor*******************星宿传感器************************************* \ntoggle led",
+  "neZha.LightIntensity": "TODO: get light intensity(0~100%)",
+  "neZha.MotorList": "MotorList",
+  "neZha.Noise": "TODO: get noise(dB)",
+  "neZha.Relay": "toggle Relay",
+  "neZha.ServoList": "ServoList",
+  "neZha.SoilHumidity": "TODO: get soil moisture(0~100%)",
+  "neZha.Ultrasonic": "***********************************28星宿传感器（Octopus） **********************************************sensor************************星宿传感器************************************************ \nget Ultrasonic distance",
+  "neZha.WaterLevel": "get water level value (0~100)",
+  "neZha.setMotorSpeed": "TODO: Set the speed of M1, M2, M3, M4 motor.",
+  "neZha.setMotorSpeed|param|motor": "M1, M2, M3, M4 motor , eg: MotorList.M1",
+  "neZha.setMotorSpeed|param|speed": "motor speed, eg: 100"
+}

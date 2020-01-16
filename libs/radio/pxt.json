@@ -1,0 +1,27 @@
+{
+    "name": "radio",
+    "description": "The radio services",
+    "files": [
+        "README.md",
+        "shims.d.ts",
+        "enums.d.ts",
+        "radio.cpp",
+        "radio.ts",
+        "deprecated.ts"
+    ],
+    "icon": "./static/packages/radio/icon.png",
+    "public": true,
+    "dependencies": {
+        "core": "file:../core"
+    },
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 0
+                }
+            }
+        }
+    },
+    "installedVersion": "rlfgis"
+}

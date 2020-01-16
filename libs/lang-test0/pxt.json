@@ -1,0 +1,13 @@
+{
+    "name": "lang-test0",
+    "description": "Test for the TypeScript -> HEX compiler",
+    "installedVersion": "file:.",
+    "files": [
+        "lang-test0.ts"
+    ],
+    "public": true,
+    "additionalFilePath": "../../node_modules/pxt-core/libs/lang-test0",
+    "dependencies": {
+        "core": "file:../core"
+    }
+}

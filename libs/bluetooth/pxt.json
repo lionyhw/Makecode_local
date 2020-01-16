@@ -1,0 +1,34 @@
+{
+    "name": "bluetooth",
+    "description": "Bluetooth services",
+    "files": [
+        "README.md",
+        "enums.d.ts",
+        "shims.d.ts",
+        "bluetooth.ts",
+        "bluetooth.cpp",
+        "BLEHF2Service.h",
+        "BLEHF2Service.cpp"
+    ],
+    "icon": "./static/packages/bluetooth/icon.png",
+    "public": true,
+    "dependencies": {
+        "core": "file:../core"
+    },
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 1
+                }
+            }
+        },
+        "optionalConfig": {
+            "microbit-dal": {
+                "stack_size": 1280,
+                "gatt_table_size": "0x700"
+            }
+        }
+    },
+    "installedVersion": "vzlhfd"
+}
